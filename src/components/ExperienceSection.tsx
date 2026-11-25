@@ -11,22 +11,22 @@ interface ExperienceItem {
 const EXPERIENCES: ExperienceItem[] = [
   {
     id: '1',
-    role: 'Graphic Designer (Elite Hack 1.0) - Feb 2026',
+    role: 'Google Arcade Legend',
     dotClass: 'bg-[#4a6b1d] dark:bg-[#b2c96c]',
     titleClass: 'text-[#4a6b1d] dark:text-[#b2c96c]',
-    description: 'designed rapid posters, banners, and social media graphics for elite hack 1.0, a hackathon event by Elite Coders Community.',
+    description: 'completed 390+ Google Cloud labs, and achieved the highest tier of recognition for my expertise in Google Cloud technologies.',
   },
   {
     id: '2',
-    role: 'Google Student Ambassador - 2026',
+    role: 'Google Student Ambassador',
     dotClass: 'bg-[#1f6e3a] dark:bg-[#78c28c]',
     titleClass: 'text-[#1f6e3a] dark:text-[#78c28c]',
     description:
-      'organized and led workshops, events, and initiatives to promote Google technologies and resources among students. collaborated with the google team to provide feedback on products and services.',
+      'organized and led workshops & events among students, every month, teaching best ways to use Gemini',
   },
   {
     id: '3',
-    role: 'Graphic Designer (Hacknovate 8.0) - Feb 2027',
+    role: 'Graphic Designer (Hacknovate 8.0)',
     dotClass: 'bg-[#9a5c0f] dark:bg-[#d9a04e]',
     titleClass: 'text-[#9a5c0f] dark:text-[#d9a04e]',
     description:
