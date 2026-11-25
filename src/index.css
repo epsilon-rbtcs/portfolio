@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+
+  html.dark {
+    color-scheme: dark;
+  }
+
+  html,
+  body {
+    font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Subtle custom scrollbar for horizontal contribution graph on small viewports */
+.heatmap-scroll::-webkit-scrollbar {
+  height: 4px;
+}
+
+.heatmap-scroll::-webkit-scrollbar-track {
+  background: #f2f1ec;
+}
+
+.heatmap-scroll::-webkit-scrollbar-thumb {
+  background: #d0cec6;
+  border-radius: 2px;
+}
+
+.dark .heatmap-scroll::-webkit-scrollbar-track {
+  background: #0c0c0b;
+}
+
+.dark .heatmap-scroll::-webkit-scrollbar-thumb {
+  background: #262624;
+}

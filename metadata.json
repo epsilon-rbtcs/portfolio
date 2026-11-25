@@ -1,0 +1,8 @@
+{
+  "name": "Ankit - ML Engineer",
+  "description": "Personal portfolio of Ankit, an AIML engineer building web apps and training ML models",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
